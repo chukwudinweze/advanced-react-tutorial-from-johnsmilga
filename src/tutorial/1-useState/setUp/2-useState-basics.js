@@ -1,7 +1,23 @@
 import React, { useState } from "react";
 
 const UseStateBasics = () => {
-  return <h2>useState basic example</h2>;
+  const [text, setText] = useState("hello word");
+  let handleClick = () => {
+    if (text === "hello word") {
+      setText("learning never stops");
+    } else if (text === "learning never stops {
+      setText("hello world");
+    }
+  };
+
+  return (
+    <React.Fragment>
+      <h1>{text}</h1>
+      <button className="btn" onClick={handleClick}>
+        change title
+      </button>
+    </React.Fragment>
+  );
 };
 
 export default UseStateBasics;
