@@ -5,10 +5,10 @@ const UseStateCounter = () => {
   return (
     <>
       <h3>{value}</h3>
-      <button className="btn" onClick={() => setValue(value  1)}>
+      <button className="btn" onClick={() => setValue(value + 1)}>
         increase
       </button>
-      <button className="btn" onClick={() => setValue(value + 1)}>
+      <button className="btn" onClick={() => setValue(value - 1)}>
         decrease
       </button>
       <button className="btn" onClick={() => setValue(0)}>
