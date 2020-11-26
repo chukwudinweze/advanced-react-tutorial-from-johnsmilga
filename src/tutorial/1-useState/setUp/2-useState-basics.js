@@ -5,7 +5,7 @@ const UseStateBasics = () => {
   let handleClick = () => {
     if (text === "hello word") {
       setText("learning never stops");
-    } else if (text === "learning never stops {
+    } else {
       setText("hello world");
     }
   };

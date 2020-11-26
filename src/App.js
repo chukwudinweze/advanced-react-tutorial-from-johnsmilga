@@ -1,5 +1,5 @@
 import React from "react";
-import Setup from './tutorial/1-useState/setUp/2-useState-basics.js'
+import Setup from './tutorial/1-useState/setUp/4-use-State-object.js'
 function App() {
   return (
     <div className="container">
