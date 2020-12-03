@@ -46,7 +46,7 @@ const ControlledInputs = () => {
         const { firstName, email, id } = per;
         return (
           <div className="item" key={id}>
-            <h>{firstName}</h3>
+            <h4>{firstName}</h4>
             <h5>{email}</h5>
           </div>
         );
